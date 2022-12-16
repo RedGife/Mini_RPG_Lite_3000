@@ -13,7 +13,7 @@ public class Warrior extends Hero
     }
     public void add(Weapon w){
         int attack=getEntityDamage()+w.getDegats();
-        setGlobalDamage(attack);
+        setDegatsGlobaux(attack);
     }
 
 

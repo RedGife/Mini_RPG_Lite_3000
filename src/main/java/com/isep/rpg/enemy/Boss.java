@@ -6,7 +6,7 @@ public class Boss extends Enemy
     public  Boss()
     {
         this.setHp(200000);
-        this.setGlobalDamage(20000);
+        this.setDegatsGlobaux(20000);
     }
 
     public String getType() { return "Boss"; }

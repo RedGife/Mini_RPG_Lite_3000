@@ -21,8 +21,8 @@ public abstract class Entity
     public int attack(){
         return this.attack;
     }
-    public int getGlobalDamage() { return globalDamage;}
-    public void setGlobalDamage(int globalDamage) { this.globalDamage= globalDamage; }
+    public int getDegatsGlobaux() { return degatsGlobaux;}
+    public void setDegatsGlobaux(int degatsGlobaux) { this.degatsGlobaux = degatsGlobaux; }
 
     public void setEntityDamage(int entityDamage) {
         Entity.entityDamage = entityDamage;}
@@ -33,7 +33,7 @@ public abstract class Entity
 
     public abstract String getType();
 
-    public int globalDamage;
+    public int degatsGlobaux;
 
     public boolean isAlive()
     {

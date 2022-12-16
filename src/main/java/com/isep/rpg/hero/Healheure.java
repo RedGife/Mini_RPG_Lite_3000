@@ -16,7 +16,7 @@ public class Healheure extends Lanceur2Sort
     }
     public void add(Weapon he){
         int attack=getEntityDamage()+he.getDegats();
-        this.setGlobalDamage(attack);
+        this.setDegatsGlobaux(attack);
     }
 
 

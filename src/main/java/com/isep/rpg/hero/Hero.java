@@ -3,7 +3,6 @@ package com.isep.rpg.hero;
 import com.isep.rpg.Entity;
 import com.isep.rpg.enemy.Enemy;
 import com.isep.rpg.hero.item.Consumable;
-import com.isep.rpg.hero.item.Weapon;
 
 import java.util.List;
 
@@ -30,7 +29,7 @@ public abstract class Hero extends Entity
 
     public void attack(Enemy enemy)
     {
-        enemy.substractHp(getGlobalDamage());
+        enemy.substractHp(getDegatsGlobaux());
     }
 
     public void defend() { this.inDefense = true; }

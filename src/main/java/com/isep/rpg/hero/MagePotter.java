@@ -15,7 +15,7 @@ public class MagePotter extends Lanceur2Sort
     }
     public void add(Weapon m){
         int attack=getEntityDamage()+m.getDegats();
-        setGlobalDamage(attack);
+        setDegatsGlobaux(attack);
     }
 
 

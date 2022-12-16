@@ -21,7 +21,7 @@ public class MainApplication extends Application
     {
         Parent root = FXMLLoader.load(getClass().getResource("start-menu-view.fxml"));
         window = primaryStage;
-        primaryStage.setTitle("Mini RPG Lite");
+        primaryStage.setTitle("XxMini RPG Lite 3000xX");
         primaryStage.setScene(new Scene(root, 1280, 720));
         primaryStage.setResizable(false);
         primaryStage.show();

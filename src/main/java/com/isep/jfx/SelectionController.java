@@ -102,7 +102,7 @@ public class SelectionController implements Initializable
         }
         else
         {
-            errorPopup("Ajoute au moins un héro.");
+            errorPopup("Pas sûr que partir en mission sans perso soit la meilleure idée que tu ai eu...");
         }
     }
 

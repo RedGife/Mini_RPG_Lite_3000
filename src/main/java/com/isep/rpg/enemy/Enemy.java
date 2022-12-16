@@ -7,7 +7,7 @@ public abstract class Enemy extends Entity
 {
     public void attack(Hero hero)
     {
-        int damage = getGlobalDamage() - hero.getArmor();
+        int damage = getDegatsGlobaux() - hero.getArmor();
         hero.substractHp(damage);
     }
 }

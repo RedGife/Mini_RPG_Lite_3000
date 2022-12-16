@@ -17,7 +17,7 @@ public class Hunter extends Hero
     }
     public void add(Weapon h){
         int attack=getEntityDamage()+h.getDegats();
-        setGlobalDamage(attack);
+        setDegatsGlobaux(attack);
     }
 
 

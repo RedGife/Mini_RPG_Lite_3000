@@ -6,8 +6,8 @@ public class BasicEnemy extends Enemy
     public BasicEnemy()
     {
         this.setHp(30000);
-        this.setGlobalDamage(5000);
+        this.setDegatsGlobaux(5000);
     }
 
-    public String getType() { return "BasicEnemy"; }
+    public String getType() { return "Sbires"; }
 }

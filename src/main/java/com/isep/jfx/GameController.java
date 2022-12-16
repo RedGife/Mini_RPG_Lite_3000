@@ -107,14 +107,14 @@ public class GameController implements Initializable
             {
                 if(game.party.size() <= 0)
                 {
-                    alertPopup("Game Over", "T'es nul fréro! =(.");
+                    alertPopup("Game Over", "T'es nul frérot! =(.");
                 }
                 else
                 {
                     Random random = new Random();
                     int selection = random.nextInt(game.party.size());
                     e.attack(game.party.get(selection));
-                    battleLogLabel.setText(e.getType() + " deals " + e.getGlobalDamage() + " to " + game.party.get(selection).getType());
+                    battleLogLabel.setText(e.getType() + " à infligé " + e.getDegatsGlobaux() + " à " + game.party.get(selection).getType());
 
                     if (!game.party.get(selection).isAlive()) {
                         game.party.remove(selection);
@@ -132,7 +132,7 @@ public class GameController implements Initializable
         int selection = enemyList.getSelectionModel().getSelectedIndex();
         game.party.get(currentHeroInList).attack(game.enemyList.get(selection));
 
-        String battleLog = currentHeroLabel.getText() + " a infligé " + game.party.get(currentHeroInList).getGlobalDamage() + " pts de dégats !";
+        String battleLog = currentHeroLabel.getText() + " a infligé " + game.party.get(currentHeroInList).getDegatsGlobaux() + " pts de dégats !";
         if(!game.enemyList.get(selection).isAlive())
         {
             battleLog = battleLog + " Vous avez vaincu un ennemie.";
