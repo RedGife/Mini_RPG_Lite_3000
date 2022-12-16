@@ -7,9 +7,9 @@ public class MagePotter extends Lanceur2Sort
     // Construct
     public MagePotter()
     {
-        this.setHp(50000);
-        this.setArmor(500);
-        this.setManaPoints(10000);
+        this.setHp(60000);
+        this.setArmor(600);
+        this.setManaPoints(11000);
         this.setSpellCost(500);
         this.setEntityDamage(5000);
     }
