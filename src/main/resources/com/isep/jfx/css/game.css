@@ -1,0 +1,14 @@
+.root{
+    -fx-background-image: url('../img/game_background.jpeg');
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.label{
+    -fx-text-fill: #FFFFFF;
+}
+
+.list-view{
+    -fx-font-size: 20;
+}
